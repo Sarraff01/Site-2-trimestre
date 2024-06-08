@@ -1,20 +1,59 @@
 body {
 
-background-color: #bdbdbd;
-font-family:"Pacifico";
+    background-color: #bdbdbd;
+    font-family: sans-serif;
 }
-h1 {
-    color: #fff;
-    background-color: #fff;
+
+/* icones  */
+#logo {
+    width: 200px;
+
+
+}
+
+#icon-compras {
+    width: 30px;
+
+}
+
+#icon-buscas {
+    width: 35px;
+}
+
+/*fim icones*/
+
+/*cabecalho*/
+.cabecalho-menu {
+
+    margin-left: 10px;
+    height: 24px;
+    width: 24px;
+    background: url(Menu.png);
+    display: inline-block;
+}
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    color: white;
     
 }
-.logo {
-    color: blue;
-font-size: 25px;
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 15%;
+    background-color: black;
+}
+.container-botao:checked ~ .lista-menu {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
     
 }
-.logo-dois {
-    color: purple;
-font-size: 25px;
-    
-}
+
