@@ -30,6 +30,7 @@ body {
     width: 24px;
     background: url(Menu.png);
     display: inline-block;
+    
 }
 .cabecalho {
     background-color: rgb(0, 0, 0);
@@ -47,6 +48,10 @@ ul {
     position: absolute;
     top: 8%;
     background-color: black;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid yellow;
 }
 .container-botao:checked ~ .lista-menu {
     display: block;
@@ -59,4 +64,17 @@ a {
 .lista-menu-titulo,
 .lista-menu-item {
     padding: 16px;
+   
+
+
+}
+.lista-menu-titulo {
+    font-size: 13px;
+    font-weight: 600;
+    color:yellow ;
+}
+.lista-menu-link {
+    text-transform: uppercase;
+    text-decoration: underline;
+    
 }
