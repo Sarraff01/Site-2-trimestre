@@ -78,3 +78,26 @@ a {
     text-decoration: underline;
     
 }
+.banner {
+    background: linear-gradient(to right , yellow, rgb(143, 121, 0));
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.texto-banner {
+    margin: 20px;
+    font-size: 14px;
+}
+#banner-procurar {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 15px;
+
+}
+#banner-procurar:hover {
+    background-color: black;
+    color: yellow;
+}
