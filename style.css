@@ -1,7 +1,7 @@
 body {
 
     background-color: #bdbdbd;
-    font-family: sans-serif;
+    font-family: "Poppins";
 }
 
 /* icones  */
@@ -100,4 +100,14 @@ a {
 #banner-procurar:hover {
     background-color: black;
     color: yellow;
+}
+.carrossel-titulo {
+    background-color: black;
+    color: yellow;
+    padding:20px ;
+    text-align: center;
+    font-size: 15px;
+}
+.img-c{
+    width: 300px;
 }
