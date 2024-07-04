@@ -11,7 +11,7 @@ body {
 
 }
 
-#icon-compras {
+.icon-compras {
     width: 30px;
 
 }
@@ -107,7 +107,37 @@ a {
     padding:20px ;
     text-align: center;
     font-size: 15px;
+    text-transform: uppercase;
 }
-.img-c{
-    width: 300px;
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+.card-descrição {
+    display: flex ; 
+    justify-content: space-between;
+    }
+    .card{
+        padding: 15px;
+        background-color: yellow;
+        margin: 10px;
+        font-size: 15px;
+        border-radius: 20px;
+        box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.603);
+    }
+.card .Camiseta {
+width: 45%;
+}
+.card-botões {
+    display: flex;
+    justify-content: space-between;
 }
