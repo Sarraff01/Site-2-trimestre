@@ -123,21 +123,106 @@ a {
     margin: .5em 0;
 }
 .card-descrição {
-    display: flex ; 
+    display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
+
     }
     .card{
-        padding: 15px;
-        background-color: yellow;
-        margin: 10px;
-        font-size: 15px;
-        border-radius: 20px;
-        box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.603);
+
+        background: linear-gradient(to right , yellow, rgb(143, 121, 0));
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
     }
 .card .Camiseta {
-width: 45%;
+width: 30%;
 }
 .card-botões {
     display: flex;
     justify-content: space-between;
+}
+.botões-item {
+    width: 30px;
+}
+.descrição {
+    margin: auto;
+    font-size: 19px;
+}
+.botões-ancora{
+    color: black;
+}
+.imagem {
+    width: 200px;
+}
+.tópicos {
+    background: black;
+     text-align: center;
+     padding: 1em 0;
+     border-radius: 10px;
+     margin: 1em;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.tópicos__titulo {
+   color: yellow;
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .tópicos__link {
+    color: black;
+     padding: 1em;
+     background-color: yellow;
+ 
+ }
+ .tópicos__item {
+    margin: 2em 0.5em;
+ }
+ .contato {
+    background: linear-gradient(to right , yellow, rgb(143, 121, 0));
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contato__titulo
+.contato__texto {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+}
+.contato__email::placeholder {
+
+    color: gray;
+    padding-left: 2em;
+}
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: gray;
+    text-align: center;
 }
